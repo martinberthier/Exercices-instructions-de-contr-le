@@ -13,7 +13,7 @@ public class Ristournes {
 		nombreJean = clavier.nextInt();
 		clavier.close();
 		
-		int prixTotal = prixUnite * nombreJean;
+		float prixTotal = prixUnite * nombreJean;
 		
 		if (nombreJean >=2 && nombreJean < 5)  {
 			System.out.println("Vous avez une remise de 10%. Le prix total est de: "+ (prixTotal-(prixTotal *10 / 100))+"euros.");

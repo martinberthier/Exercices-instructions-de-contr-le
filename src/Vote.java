@@ -9,7 +9,7 @@ public class Vote {
 		
 		Scanner clavier = new Scanner(System.in); // Récupérer les valeurs entrées dans le clavier
 		
-		int age = clavier.nextInt();;
+		int age = clavier.nextInt();
 		
 		clavier.close();
 		
